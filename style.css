@@ -5,7 +5,7 @@ body {
 }
 
 #es-loreal.es-loreal {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.2;
@@ -24,7 +24,7 @@ body {
 #es-loreal.es-loreal h3,
 #es-loreal.es-loreal h4,
 #es-loreal.es-loreal h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #1d1d1b;
 }
 #es-loreal.es-loreal .es-kv {
@@ -350,6 +350,41 @@ body {
   bottom: 10%;
   right: 0;
 }
+#es-loreal.es-loreal .es-gifs {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#es-loreal.es-loreal .es-gifs__items-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#es-loreal.es-loreal .es-gifs__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#es-loreal.es-loreal .es-gifs__img {
+  width: 60%;
+}
+#es-loreal.es-loreal .es-gifs__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  display: block;
+  margin: 0 auto;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+#es-loreal.es-loreal .es-gifs__text--reverted {
+  order: 2;
+}
 #es-loreal.es-loreal .es-video {
   padding-left: 15px;
   padding-right: 15px;
@@ -378,7 +413,7 @@ body {
   margin: 0 auto;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #es-loreal.es-loreal .es-video__play-button {
   position: absolute;
@@ -429,7 +464,8 @@ body {
 #es-loreal.es-loreal .es-swatches__group-1 {
   margin-bottom: 50px;
 }
-#es-loreal.es-loreal .es-swatches__group-1, #es-loreal.es-loreal .es-swatches__group-2 {
+#es-loreal.es-loreal .es-swatches__group-1,
+#es-loreal.es-loreal .es-swatches__group-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -588,7 +624,8 @@ body {
   #es-loreal.es-loreal .es-kv__packshot img {
     height: 230px;
   }
-  #es-loreal.es-loreal .es-swatches__group-1, #es-loreal.es-loreal .es-swatches__group-2 {
+  #es-loreal.es-loreal .es-swatches__group-1,
+  #es-loreal.es-loreal .es-swatches__group-2 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
@@ -617,6 +654,9 @@ body {
   }
   #es-loreal.es-loreal .es-benefits__single {
     width: 160px;
+  }
+  #es-loreal.es-loreal .es-gifs__text {
+    font-size: 20px;
   }
   #es-loreal.es-loreal .es-video__play-button--mobile {
     display: none;
@@ -706,7 +746,8 @@ body {
     align-content: space-around;
     position: relative;
   }
-  #es-loreal.es-loreal .es-kv__text, #es-loreal.es-loreal .es-kv__title {
+  #es-loreal.es-loreal .es-kv__text,
+  #es-loreal.es-loreal .es-kv__title {
     text-align: left;
   }
   #es-loreal.es-loreal .es-kv__text {
@@ -760,6 +801,9 @@ body {
   #es-loreal.es-loreal .es-look__products-desktop {
     display: block;
     margin: 0 auto;
+  }
+  #es-loreal.es-loreal .es-gifs__text {
+    font-size: 29px;
   }
 }
 @media screen and (min-width: 930px) {
@@ -880,4 +924,4 @@ body {
     opacity: 1;
     transform: translateX(0);
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
